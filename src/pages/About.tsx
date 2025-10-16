@@ -6,7 +6,7 @@ import avatarImage from "../assets/ani_eren.avif";
 import "../Styles/About.css";
 
 const projects = [
-  { id: 1, title: "Projekt 1", image: "", description: "" },
+  { id: 1, title: "Pizza-Website", image: "", description: "" },
   { id: 2, title: "Projekt 2", image: "", description: "" },
   { id: 3, title: "Projekt 3", image: "", description: "" },
   { id: 4, title: "Projekt 4", image: "", description: "" },
@@ -77,14 +77,11 @@ function About() {
         </Stack>
       </div>
       <div className="intro">
-        <p className="intro-eyebrow">
-          Softwareentwicklung | Full-Stack Trainee
-        </p>
+        <p className="intro-eyebrow">Full-Stack Trainee</p>
         <h1>Hi, ich bin Mikail.</h1>
         <p className="intro-body">
           Azubi im zweiten Lehrjahr mit Fokus auf moderne Frontends, skalierbare
-          Backends und strukturierte Daten. Ich baue digitale Produkte mit
-          Klarheit, Präzision und einem Auge fürs Detail.
+          Backends und strukturierte Daten.
         </p>
         <div className="intro-cta">
           <button type="button" onClick={() => scrollToSection("Projekte")}>
