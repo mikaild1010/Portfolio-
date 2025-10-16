@@ -19,19 +19,19 @@ const skillCategories = [
     id: "fe",
     label: "FE",
     title: "Frontend",
-    items: ["React", "TypeScript", "Vite", "Tailwind CSS"],
+    items: ["React", "TypeScript", "Vite"],
   },
   {
     id: "be",
     label: "BE",
     title: "Backend",
-    items: ["Node.js", "Express", "Java", "REST APIs"],
+    items: ["Java", "Python", "C#"],
   },
   {
     id: "db",
     label: "DB",
     title: "Datenbanken",
-    items: ["PostgreSQL", "MongoDB", "Prisma", "Supabase"],
+    items: ["PostgreSQL"],
   },
 ];
 
@@ -47,8 +47,7 @@ function About() {
     <div className="about">
       <header className="site-header">
         <div className="logo">
-          <span className="logo-mark">MK</span>
-          <span className="logo-text">Mikail Portfolio</span>
+          <span className="logo-mark">MD</span>
         </div>
         <nav className="nav-buttons">
           <button type="button" onClick={() => scrollToSection("Projekte")}>
