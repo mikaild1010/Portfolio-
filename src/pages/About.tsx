@@ -17,18 +17,21 @@ const projects = [
 const skillCategories = [
   {
     id: "fe",
-    label: "Frontend",
-    items: ["React", "TypeScript", "Vite"],
+    label: "FE",
+    title: "Frontend",
+    items: ["React", "TypeScript", "Vite", "Tailwind CSS"],
   },
   {
     id: "be",
-    label: "Backend",
-    items: ["Java", "Python", "C#"],
+    label: "BE",
+    title: "Backend",
+    items: ["Node.js", "Express", "Java", "REST APIs"],
   },
   {
     id: "db",
-    label: "Datenbanken",
-    items: ["PostgreSQL"],
+    label: "DB",
+    title: "Datenbanken",
+    items: ["PostgreSQL", "MongoDB", "Prisma", "Supabase"],
   },
 ];
 
@@ -43,7 +46,10 @@ function About() {
   return (
     <div className="about">
       <header className="site-header">
-        <div className="logo"></div>
+        <div className="logo">
+          <span className="logo-mark">MK</span>
+          <span className="logo-text">Mikail Portfolio</span>
+        </div>
         <nav className="nav-buttons">
           <button type="button" onClick={() => scrollToSection("Projekte")}>
             Projekte
@@ -65,8 +71,8 @@ function About() {
             sx={{
               width: 260,
               height: 260,
-              border: "6px solid rgba(148, 163, 184, 0.35)",
-              boxShadow: "0 18px 32px rgba(8, 15, 35, 0.45)",
+              border: "6px solid rgba(99, 102, 241, 0.25)",
+              boxShadow: "0 18px 32px rgba(148, 163, 184, 0.35)",
             }}
           />
         </Stack>
